@@ -113,10 +113,10 @@
  </target>
 
  <target name="phpdox" description="Generate API documentation using phpDox">
-  <exec executable="C:\xampp\php\phpdox.bat">
+  <!--exec executable="C:\xampp\php\phpdox.bat">
    <arg value="-f"/>
    <arg path="${basedir}/build/phpdox.xml"/>
-  </exec>
+  </exec-->
  </target>
 
  <target name="phpunit" description="Run unit tests with PHPUnit">
