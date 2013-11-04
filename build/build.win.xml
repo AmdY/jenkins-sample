@@ -96,7 +96,7 @@
  </target>
 
  <target name="phpcs-ci" description="Find coding standard violations using PHP_CodeSniffer creating a log file for the continuous integration server">
-  <exec executable="C:\xampp\php\phpcs.bat" output="/dev/null">
+  <exec executable="C:\xampp\php\phpcs.bat">
    <arg value="--report=checkstyle" />
    <arg value="--report-file=${basedir}/build/logs/checkstyle.xml" />
    <arg value="--standard=PSR2" />
